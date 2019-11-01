@@ -1,0 +1,55 @@
+<div id="overview">
+  <div class="container">
+    <h2>Reissom</h2>
+    <!-- <h3>
+      Overzicht kosten
+    </h3>
+    <p>
+      <vtb-prices-average
+        [dataSource]="itinerary"
+        [rounding]="'round'"
+        [prefix]="'&euro;'"
+        [postfix]="
+          ',- per persoon, gebaseerd op een reis voor ' +
+          (itinerary.participants | totalParticipants) +
+          ' personen.'
+        "
+      ></vtb-prices-average>
+    </p>
+
+    <p>
+      Prijs is afhankelijk van het aantal personen, de reisduur, de reisperiode
+      en is onder voorbehoud van beschikbaarheid bij bevestiging.<br />
+      <strong>Inclusief </strong>internationale vliegtickets.<br />
+      <strong>Inclusief</strong> binnenlandse vliegtickets.
+    </p> -->
+
+    <div class="lists">
+      <div class="listwrap inclusive">
+        <div class="listblk">
+          <h3>Inclusief</h3>
+          <!-- <vtb-elements-list [optional]="false" [unitIds]="[2]" [reverseUnitIds]="true" [dataSource]="itinerary.segments"></vtb-elements-list> -->
+          <div [innerHTML]="inclusive" class="list"></div>
+        </div>
+      </div>
+      <div class="listwrap exclusive">
+        <div class="listblk">
+          <h3>Exclusief</h3>
+          <!-- <vtb-elements-list [optional]="true" [unitIds]="[2]" [reverseUnitIds]="true" [dataSource]="itinerary.segments"></vtb-elements-list> -->
+          <div [innerHTML]="exclusive" class="list"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="packagewrap">
+      <div class="packageimg">
+        <img src="{{ priceImage }}" />
+      </div>
+      <div class="packagetxt">
+        <h3>
+          <span [innerHTML]="price"></span>
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>

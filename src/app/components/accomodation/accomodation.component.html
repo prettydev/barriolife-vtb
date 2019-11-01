@@ -1,0 +1,50 @@
+<div class="accomodaties" id="accomodation">
+  <div class="container">
+    <h2>Accommodaties</h2>
+    <div class="acc-row">
+      <div class="acc-col acc-slider" *ngIf="galleryPresent">
+        <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+      </div>
+      <div class="acc-col acc-content" [ngClass]="(!galleryPresent)?'acc-col-off':'acc-col-on'">
+        <div class="custom-program">
+          <div
+            class="program-parent"
+            *ngFor="
+              let customprogram of program ;
+              index as i
+            "
+          >
+            <div class="title">
+              
+              <div class="open-close">
+                  <i
+                  *ngIf="activated !== i && customprogram.content"
+                  (click)="display(i)"
+                  class="fas fa-plus"
+                ></i>
+                <i
+                  *ngIf="activated === i"
+                  (click)="hide()"
+                  class="fas fa-minus"
+                ></i>
+              </div>
+              <div class="acconmcontent" >
+                  <span class="day">
+                      {{ customprogram.day }} - {{ customprogram.title }} <span *ngIf="customprogram.optional"> (optional) </span>
+                    </span>
+
+              </div>
+              <!-- <span class="desc">-{{ customprogram.title }}</span> -->
+            </div>
+            <div class="program-content" [class.active]="activated === i">
+              <div class="programtxt">
+                <p *ngIf="customprogram.content" [innerHTML]="customprogram.content">
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

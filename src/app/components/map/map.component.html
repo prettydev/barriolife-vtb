@@ -1,0 +1,162 @@
+<div class="mapwrap">
+  <h2>De Reisroute</h2>
+  <div class="mapcont">
+    <div class="map">
+      <agm-map
+        [latitude]="markers[0].latitude"
+        [longitude]="markers[0].longitude"
+        [zoom]="6"
+        [scrollwheel]="false"
+        [styles]="[
+          {
+            featureType: 'administrative',
+            elementType: 'all',
+            stylers: [
+              {
+                saturation: '-100'
+              }
+            ]
+          },
+          {
+            featureType: 'administrative.province',
+            elementType: 'all',
+            stylers: [
+              {
+                visibility: 'off'
+              }
+            ]
+          },
+          {
+            featureType: 'landscape',
+            elementType: 'all',
+            stylers: [
+              {
+                saturation: -100
+              },
+              {
+                lightness: 65
+              },
+              {
+                visibility: 'on'
+              }
+            ]
+          },
+          {
+            featureType: 'poi',
+            elementType: 'all',
+            stylers: [
+              {
+                saturation: -100
+              },
+              {
+                lightness: '50'
+              },
+              {
+                visibility: 'simplified'
+              }
+            ]
+          },
+          {
+            featureType: 'road',
+            elementType: 'all',
+            stylers: [
+              {
+                saturation: '-100'
+              }
+            ]
+          },
+          {
+            featureType: 'road.highway',
+            elementType: 'all',
+            stylers: [
+              {
+                visibility: 'simplified'
+              }
+            ]
+          },
+          {
+            featureType: 'road.arterial',
+            elementType: 'all',
+            stylers: [
+              {
+                lightness: '30'
+              }
+            ]
+          },
+          {
+            featureType: 'road.local',
+            elementType: 'all',
+            stylers: [
+              {
+                lightness: '40'
+              }
+            ]
+          },
+          {
+            featureType: 'transit',
+            elementType: 'all',
+            stylers: [
+              {
+                saturation: -100
+              },
+              {
+                visibility: 'simplified'
+              }
+            ]
+          },
+          {
+            featureType: 'water',
+            elementType: 'geometry',
+            stylers: [
+              {
+                hue: '#ffff00'
+              },
+              {
+                lightness: -25
+              },
+              {
+                saturation: -97
+              }
+            ]
+          },
+          {
+            featureType: 'water',
+            elementType: 'labels',
+            stylers: [
+              {
+                lightness: -25
+              },
+              {
+                saturation: -100
+              }
+            ]
+          }
+        ]"
+        class="mapdiv"
+      >
+        <!-- <agm-marker [latitude]="52.368" [longitude]="4.9036">
+      <agm-info-window>Börk</agm-info-window>
+    </agm-marker> -->
+        <agm-marker
+          *ngFor="let m of markers"
+          [latitude]="m.latitude"
+          [longitude]="m.longitude"
+          [label]="{text: m.id}"
+        >
+          <agm-info-window>
+            <strong>{{ m.searchPlace }}</strong>
+          </agm-info-window>
+        </agm-marker>
+      </agm-map>
+    </div>
+    <div class="mapplaces">
+      <div class="placecont">
+        <div class="place" *ngFor="let m of markers">
+          <p>
+            <span>{{ m.id }}</span> {{ m.searchPlace }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

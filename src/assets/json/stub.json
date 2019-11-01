@@ -1,0 +1,2143 @@
+  {
+  "id": 18,
+   "startDate": "2019-10-19",
+    "extraFieldValues": [
+      {
+        "id": 2,
+        "parent_id": null,
+        "link_type": "order",
+        "layout_data": null,
+        "display_at": "both",
+        "sort_order": null,
+        "name": "Travelplan extravelden",
+        "fields": [
+          {
+            "id": 6,
+            "name": "Logo     ",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "logo1;logo1|logo2|logo3|logo4",
+            "category_id": 2,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Logo",
+            "selected": "logo1",
+            "options": [
+              "logo1",
+              "logo2",
+              "logo3",
+              "logo4"
+            ],
+            "vtbObjectId": "ykgi9iuogs97t0p9t906ka",
+            "value": "logo2"
+          },
+          {
+            "id": 7,
+            "name": "dont_show_startdate",
+            "type_id": 2,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 2,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "CheckBox",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Dont show startdate",
+            "vtbObjectId": "wmid8xf6i8dxhhdshvd3",
+            "value": true
+          },
+          {
+            "id": 8,
+            "name": "exclusief",
+            "type_id": 8,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 2,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TextAreaEditor",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Exclusief",
+            "vtbObjectId": "dokaksatjy80y6us3p59hrc",
+            "value": "<p><strong>Exclusief<\/strong><\/p><p><strong>Vluchten<\/strong><\/p><p>Lunch en diner<\/p><p>Reis- en\/of annuleringsverzekering<\/p>"
+          },
+          {
+            "id": 9,
+            "name": "inclusief",
+            "type_id": 8,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 2,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TextAreaEditor",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Inclusief",
+            "vtbObjectId": "4y977qjljh9sg4ozk534sf",
+            "value": "<p><strong>Inclusief<\/strong><\/p><p>1. Priv\u00e9 vliegveldtransfer van vliegveld Fes naar de Riad in de Medina<\/p><p>2. Priv\u00e9 transfer van de accommodatie naar het vliegveld van Marrakech<\/p><p>3. 11x overnachtingen in tweepersoonskamer en een eenpersoonskamer en 4x overnachtingen o.b.v. een driepersoonskamer o.b.v. middenklasse accommodaties, sfeervolle B&amp;B in de natuur met soms een zwembad, allemaal inclusief ontbijt(buffet)&nbsp;<\/p><p>4. 1x overnachting in nomadentent in de woestijn op basis van ontbijt, diner, tussendoortjes en water\/thee\/koffie etc.<\/p><p>5. 1x overnachting in homestay bij lokale berberfamilie in het Atlasgebergte<\/p><p>6. Huurauto op basis van een middenklassemodel Citroen C-Elysee of vergelijkbaar en een complete Allrisk verzekering voor het totaal aantal gehuurde dagen o.b.v. het dagprogramma.<\/p><p>7. Priv\u00e9 kamelenwandeling met woestijngids door de zandduinen van de woestijn<\/p><p>8. Tweedaagse trekking door het Atlasgebergte met berggids, lunch, diner en ontbijt en tussendoortjes, water etc.&nbsp;<\/p>"
+          },
+          {
+            "id": 10,
+            "name": "reissom",
+            "type_id": 8,
+            "valid_regex": "",
+            "defaults": null,
+            "category_id": 2,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "TextAreaEditor",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Reissom",
+            "vtbObjectId": "bq59epaelh9qirimvtsbh",
+            "value": "<p>Prijs 1389 euro p.p. op basis van 3 personen.<\/p><p>&nbsp;<\/p>"
+          },
+          {
+            "id": 11,
+            "name": "reisspecialist",
+            "type_id": 3,
+            "valid_regex": "",
+            "defaults": "Rikkert;Rikkert|Wendy|Rob|Saskia",
+            "category_id": 2,
+            "sort_order": null,
+            "field_width": null,
+            "field_type": "FilteringSelect",
+            "display_at": "both",
+            "show_in_product": 0,
+            "layout_data": null,
+            "maxlength": null,
+            "maxlength_enforce": 0,
+            "translated_name": "Reisspecialist",
+            "selected": "Rikkert",
+            "options": [
+              "Rikkert",
+              "Wendy",
+              "Rob",
+              "Saskia"
+            ],
+            "vtbObjectId": "n5ppx8492icbf4i15sv",
+            "value": "Rikkert"
+          }
+        ],
+        "vtbObjectId": "b52az5yny2uqynptiitc9"
+      }
+    ],
+    "participants": {
+      "party 1": [
+        {
+          "id": "3590",
+          "name": "Marjolein",
+          "surname": "Kuenen",
+          "surname_prefix": "",
+          "title": "2",
+          "sex": "female",
+          "birthdate": "1974-09-02",
+          "partyName": "party 1"
+        },
+        {
+          "id": "3876",
+          "name": "Jan",
+          "surname": "Kuenen",
+          "surname_prefix": "",
+          "title": "1",
+          "sex": "male",
+          "birthdate": "1976-04-25",
+          "partyName": "party 1"
+        },
+        {
+          "id": "3799",
+          "name": "Nancy",
+          "surname": "Dankers",
+          "surname_prefix": "",
+          "title": "2",
+          "sex": "female",
+          "birthdate": "1971-03-20",
+          "partyName": "party 1"
+        }
+      ]
+    },
+    "segments": [
+      {
+        "nights": 3,
+        "day": 1,
+        "isFlight": false,
+        "typeId": 11,
+        "title": "Aankomst in Fes",
+        "subTitle": null,
+        "content": "<p><strong>Fez<\/strong><br><br>Fez is de op twee na grootste stad van Marokko met ruim 1,2 miljoen inwoners en ligt in het noorden van Marokko. De stad is een van de vier koningssteden. \u2018Fez\u2019 of \u2018Faz\u2019 betekent pikhouweel en daarmee wordt verwezen naar Idriss I. Hij gebruikte een gouden-zilveren pikhouweel om de grenzen van Fez te omlijnen.<br><br>Fez heeft een rijk en internationaal verleden. Tegenwoordig is Fez een onderdeel in de meeste toeristische rondreizen door Marokko. Het goed bewaarde oude centrum, dat nu als UNESCO Werelderfgoed nog meer aandacht aan behoud en restauratie zal krijgen, trekt veel bezoekers. Ook zijn er diverse oude ambachten te vinden zoals de tapijt- en leerindustrie.<br><br>Het oude centrum van Fez is geheel autovrij. Eigenlijk is het niet eens mogelijk om je per auto door de super smalle straatjes te verplaatsen. Verder is Fez heel goed te bereiken. Wist je trouwens dat het in Fez best wel een beetje kan stinken? Om het leer zacht te maken wordt duivenpoep gebruikt en dit ruikt niet altijd even fris.<br><br>Bab Bou Jeloud is een goed begin van een ontdekkingstocht door de medina. Fez heeft een aantal toegangspoorten maar Bab Bou Jeloud is de belangrijkste. Deze poort is felblauw aan de buitenkant en Islamitisch groen aan de binnenkant. Bab Bou Jeloud is tevens de poort naar tal van restaurantjes en de hoofdstraten van F\u00e8s el Bali. Fez staat bekend om haar leerlooierijen. Ze zijn moeilijk te missen (door de grootte en de \u2018stank\u2019) maar een leerlooierij is zeker het zoeken waard. Sidi Mussa ligt net iets buiten de Medina. Hier heb je een mooi uitzicht op de vakmannen die hard aan het werk zijn. Ook zal je merken dat je in verschillende talen wordt aangesproken om ge\u00efnformeerd te worden over wat er allemaal gaande is.<\/p>",
+        "TSBlock": {
+          "id": 1904
+        },
+        "flightInfo": [
+          
+        ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 34.0595833,
+          "longitude": -4.974633799999992,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 14
+        },
+        "media": [
+          {
+            "id": 51,
+            "sourceType": "mediaspirit",
+            "sourceId": "725d536ed58cb4e0454ce593fe39f814",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/Fes-header-foto.jpg",
+            "description": ""
+          },
+          {
+            "id": 52,
+            "sourceType": "mediaspirit",
+            "sourceId": "80552bb4a824fda4f6ff4bcf5b75e4f0",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/Fes-ambachten-koper.jpg",
+            "description": ""
+          },
+          {
+            "id": 53,
+            "sourceType": "mediaspirit",
+            "sourceId": "725d536ed58cb4e0454ce593fe3babbd",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/Slipper-van-Fes.jpg",
+            "description": ""
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 3,
+            "unitAmount": 3,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": false,
+            "subTitle": "<1DBL+1TWIN>",
+            "title": "Rabat - Overnachting in Riad El Ghalia",
+            "TSProduct": {
+              "id": 668,
+              "tag": "ELGHALIA",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6737
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 84.46979999999999,
+              "heading": 0,
+              "latitude": 34.0595833,
+              "longitude": -4.974633799999992,
+              "pitch": 0,
+              "searchPlace": "13\/15 Ross Rhi Rass Jnan, rcif Medina 30000, Fes, Morocco",
+              "staticImageZoom": false,
+              "zoom": 1
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": "300.00000000",
+              "discount": "0.000",
+              "title": "<BL> Rabat - Overnachting in Riad El Ghalia [<1DBL+1TWIN>]",
+              "discountMethod": "absolute",
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "100.000",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "100.000",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "100.000",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "additionalText": "<html><head><title><\/title><\/head><body><p>Dar El Ghalia is een prachtige riad in de oude medina van Fez. Het hotel biedt rustige, elegante accommodatie en een verwarmd terras.<\/p><p>De kamers vari&euml;ren van standaardkamers tot ruime suites en zijn voorzien van een minibar, een radio, een eigen badkamer en airconditioning. Alle kamers liggen rondom de centrale patio.<\/p><p>Dar El Ghalia biedt tevens een hamam en massages. Geniet in de bar van een verfrissend drankje en proef in het restaurant van de regionale specialiteiten.<\/p><p>Vanuit het Dar El Ghalia kunnen gasten een bezoek brengen aan de spa&#39;s van Moulay Yacoub en Sidi Harazem, of genieten van een excursie rondom de Midden-Atlas en de steden Sefrou Imouzzer, Ifrane, Azrou en Volubilis gaan bezichtigen.<\/p><\/body><\/html>",
+            "subAdditionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "0.0000",
+                "description": "<1-2-DBL>",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "100.0000",
+                "description": "<1DBL+1TWIN>",
+                "minPerson": 1,
+                "maxPerson": 4,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "57.855",
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "thu69wq57nn8pvv3ftdu9q",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 1,
+            "date": "2019-10-19",
+            "endDate": "2019-10-22",
+            "roomTypeMatchesParticipants": true
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 3,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 3,
+            "optional": false,
+            "not_calculated": true,
+            "subTitle": "<3>",
+            "title": "Op stap met een Imam! <FEZ>",
+            "TSProduct": {
+              "id": 648,
+              "tag": null,
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6741
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": "80.10000000",
+              "discount": null,
+              "title": "<BL> Fez - Op stap met een Imam! <FEZ> [<3>]",
+              "discountMethod": "absolute",
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "26.700",
+                  "salesPrice": 26.7
+                },
+                "3799": {
+                  "costPrice": "26.700",
+                  "salesPrice": 26.7
+                },
+                "3876": {
+                  "costPrice": "26.700",
+                  "salesPrice": 26.7
+                }
+              },
+              "salesTotal": 80.1
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "70.0000",
+                "description": "<1>",
+                "minPerson": 1,
+                "maxPerson": 1,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "75.0000",
+                "description": "<2>",
+                "minPerson": 2,
+                "maxPerson": 2,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "80.1000",
+                "description": "<3>",
+                "minPerson": 3,
+                "maxPerson": 3,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "85.2000",
+                "description": "<4>",
+                "minPerson": 4,
+                "maxPerson": 4,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "90.0000",
+                "description": "<5>",
+                "minPerson": 5,
+                "maxPerson": 5,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "94.8000",
+                "description": "<6>",
+                "minPerson": 6,
+                "maxPerson": 6,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "4b3wij4go9f4vh9pe14zwj",
+            "linkedParty": "party 1",
+            "day": 4,
+            "date": "2019-10-22",
+            "endDate": "2019-10-22",
+            "roomTypeMatchesParticipants": true
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 0,
+            "unitAmount": 2,
+            "unitId": 5,
+            "optional": true,
+            "not_calculated": true,
+            "title": "<BL> Fes - Historische wandeling door de medina van Fes <Mohammed Bouziani>",
+            "TSProduct": {
+              "id": 984,
+              "tag": null,
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6721
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": null,
+              "title": "<BL> Fes - Historische wandeling door de medina van Fes <Mohammed Bouziani>",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "0.0000",
+                "description": "<2>",
+                "minPerson": 2,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "135.0000",
+                "description": "<3>",
+                "minPerson": 3,
+                "maxPerson": 3,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "22.433",
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "maztrlmk63j8x4dxfi8uh",
+            "linkedParty": "party 1",
+            "day": 1,
+            "date": "2019-10-19",
+            "endDate": "2019-10-19",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "6liohn3efv7pqkjpwuzafg",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-10-19",
+        "missingBookableDays": false,
+        "elementsOrder": "6737|6741|6721",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-10-22"
+      },
+      {
+        "nights": 1,
+        "day": 4,
+        "isFlight": false,
+        "typeId": 14,
+        "title": "Rijden van Fes naar Midelt",
+        "subTitle": "via Azrou en Ifrane",
+        "content": "<p>Ophalen huurauto, rijden via Azrou en Ifrane naar Midelt (ca. 3,5 uur direct), overnachting in sfeervolle B&amp;B voor een nacht.<\/p>",
+        "TSBlock": {
+          "id": 1905
+        },
+        "flightInfo": [
+          
+        ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 32.6799423,
+          "longitude": -4.732926799999973,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 14
+        },
+        "media": [
+          
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 1,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Midelt - Overnachting in sfeervolle accommodatie",
+            "TSProduct": {
+              "id": 1274,
+              "tag": "MIDELT",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6736
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 84.46979999999999,
+              "heading": 0,
+              "latitude": 32.6799423,
+              "longitude": -4.732926799999973,
+              "pitch": 0,
+              "searchPlace": "Midelt, Morocco",
+              "staticImageZoom": false,
+              "zoom": 1
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": null,
+              "title": "<BL> Midelt - Overnachting in sfeervolle accommodatie",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "0.000",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "0.000",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "0.000",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "tguaepgpjj0f4hk8ogfpri",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 4,
+            "date": "2019-10-22",
+            "endDate": "2019-10-23",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "zgd58z1mw8l4c3v0xxuok",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-10-22",
+        "missingBookableDays": false,
+        "elementsOrder": "6736",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-10-23"
+      },
+      {
+        "nights": 1,
+        "day": 5,
+        "isFlight": false,
+        "typeId": 14,
+        "title": "Rijden van Midelt naar Merzouga",
+        "subTitle": "via Errachidia",
+        "content": "<p>Rijden via Errachidia naar Merzouga (ca. 4 uur direct), start wandeling met kamelen, overnachting in tent in de woestijn, kampvuur, diner<\/p>",
+        "TSBlock": {
+          "id": 1906
+        },
+        "flightInfo": [
+          
+        ],
+        "media": [
+          {
+            "id": 54,
+            "sourceType": "mediaspirit",
+            "sourceId": "783eea41cc6c43f205d47e35638ea1a1",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/Marokko--Sahara-Dieren-Kameel-16.JPG",
+            "description": ""
+          },
+          {
+            "id": 55,
+            "sourceType": "mediaspirit",
+            "sourceId": "0312ac7a71468a4dccf1b8b75e6a21d3",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/IMG_1300.JPG",
+            "description": ""
+          },
+          {
+            "id": 56,
+            "sourceType": "mediaspirit",
+            "sourceId": "80552bb4a824fda4f6ff4bcf5b0f3443",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/Marokko---Sahara---Bezoeker---Accommodatie-2.JPG",
+            "description": ""
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 1,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Merzouga - Overnachting in de woestijn incl. kamelentocht <Ahmed Zouine>",
+            "TSProduct": {
+              "id": 770,
+              "tag": "MERZTENT",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6739
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 84.46979999999999,
+              "heading": 0,
+              "latitude": 31.0801676,
+              "longitude": -4.013361000000032,
+              "pitch": 0,
+              "searchPlace": "Merzouga, Morocco",
+              "staticImageZoom": false,
+              "zoom": 1
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": "0.000",
+              "title": "<BL> Merzouga - Overnachting in de woestijn incl. kamelentocht <Ahmed Zouine>",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "0.0000",
+                "description": "New row",
+                "minPerson": null,
+                "maxPerson": null,
+                "minUnit": null,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "150.0000",
+                "description": "<2>",
+                "minPerson": 2,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "300.0000",
+                "description": "<4>",
+                "minPerson": 4,
+                "maxPerson": 4,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "0.0000",
+                "description": "<5>",
+                "minPerson": 5,
+                "maxPerson": 5,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "43.390",
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "nb1lm7h9xxczecwhwqddl",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 5,
+            "date": "2019-10-23",
+            "endDate": "2019-10-24",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "maps": [
+          
+        ],
+        "vtbObjectId": "m25ip5irw5ynlapz5vy5o",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-10-23",
+        "missingBookableDays": false,
+        "elementsOrder": "6739",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-10-24"
+      },
+      {
+        "nights": 1,
+        "day": 6,
+        "isFlight": false,
+        "typeId": 14,
+        "title": "Rijden van Merzouga naar Rissani",
+        "subTitle": null,
+        "content": "<p>Terugwandelen met kamelen naar Merzouga, rijden naar Rissani (ca. 45 minuten), overnachting in sfeervolle B&amp;B met zwembad voor een nacht.<\/p>",
+        "TSBlock": {
+          "id": 1907
+        },
+        "flightInfo": [
+          
+        ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 31.2741091,
+          "longitude": -4.267045000000053,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 14
+        },
+        "media": [
+          {
+            "id": 57,
+            "sourceType": "mediaspirit",
+            "sourceId": "0f9579e4f4fc66c6e034cae0efa93ae1",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/Rissani-markt-3.JPG",
+            "description": ""
+          },
+          {
+            "id": 58,
+            "sourceType": "mediaspirit",
+            "sourceId": "ec9e91c45c954d331308a84540aba349",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/Rissani-markt-2.jpg",
+            "description": ""
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 1,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Rissani - Overnachting in sfeervolle accommodatie",
+            "TSProduct": {
+              "id": 1275,
+              "tag": "RISSANI",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6740
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 84.46979999999999,
+              "heading": 0,
+              "latitude": 31.2741091,
+              "longitude": -4.267045000000053,
+              "pitch": 0,
+              "searchPlace": "Rissani, Morocco",
+              "staticImageZoom": false,
+              "zoom": 1
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": null,
+              "title": "<BL> Rissani - Overnachting in sfeervolle accommodatie",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "0.000",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "0.000",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "0.000",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "2qprd2okiqxfp4qy9lt8x4",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 6,
+            "date": "2019-10-24",
+            "endDate": "2019-10-25",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "bdfr3j84hrm2zq7m8lu6z",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-10-24",
+        "missingBookableDays": false,
+        "elementsOrder": "6740",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-10-25"
+      },
+      {
+        "nights": 2,
+        "day": 7,
+        "isFlight": false,
+        "typeId": 14,
+        "title": "Rijden van Rissani naar Boumalne Dades",
+        "subTitle": "via Tinghir",
+        "content": "<p>Rijden via Tinghir (Todrakloof) naar Boumalne Dades (Dadeskloof) (ca. 3 uur direct), overnachting in sfeervolle B&amp;B met zwembad voor een nacht.&nbsp;<\/p>",
+        "TSBlock": {
+          "id": 1908
+        },
+        "flightInfo": [
+          
+        ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 31.3689243,
+          "longitude": -5.988545599999952,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 14
+        },
+        "media": [
+          {
+            "id": 59,
+            "sourceType": "mediaspirit",
+            "sourceId": "783eea41cc6c43f205d47e35637b7152",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/Dades-kloof-2.jpg",
+            "description": ""
+          },
+          {
+            "id": 60,
+            "sourceType": "mediaspirit",
+            "sourceId": "0312ac7a71468a4dccf1b8b75e51dfe8",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/Dades-kloof-3.jpg",
+            "description": ""
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 2,
+            "unitAmount": 2,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": true,
+            "title": "<BL> Boumalne Dades - Overnachting in sfeervolle accommodatie",
+            "TSProduct": {
+              "id": 1276,
+              "tag": "DADES",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6725
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 84.46979999999999,
+              "heading": 0,
+              "latitude": 31.3689243,
+              "longitude": -5.988545599999952,
+              "pitch": 0,
+              "searchPlace": "Boumalne Dades, Morocco",
+              "staticImageZoom": false,
+              "zoom": 14
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": null,
+              "title": "<BL> Boumalne Dades - Overnachting in sfeervolle accommodatie",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "vppmd7zqwz9hkqwjtbr6gs",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 7,
+            "date": "2019-10-25",
+            "endDate": "2019-10-27",
+            "roomTypeMatchesParticipants": true
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 1,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 3,
+            "optional": false,
+            "not_calculated": true,
+            "title": "<BL> Vrije dag",
+            "TSProduct": {
+              "id": 1277,
+              "tag": "VRIJ",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6726
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": null,
+              "title": "<BL> Vrije dag",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "k9mnqaqufzktassvmpnyhr",
+            "linkedParty": "party 1",
+            "day": 8,
+            "date": "2019-10-26",
+            "endDate": "2019-10-26",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "8zdh4ytnegwnhmf2avsfz",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-10-25",
+        "missingBookableDays": false,
+        "elementsOrder": "6725|6726",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-10-27"
+      },
+      {
+        "nights": 1,
+        "day": 9,
+        "isFlight": false,
+        "typeId": 14,
+        "title": "Rijden van Boumalne Dades naar Ait Ben Haddou",
+        "subTitle": "via rozenvallei en Skoura",
+        "content": "<p>Rijden via rozenvallei en Skoura naar Ait Ben Haddou (ca. 2,5 uur direct), bezoek aan de kasbah, overnachting in sfeervolle B&amp;B in het dorpje voor een nacht.<\/p>",
+        "TSBlock": {
+          "id": 1909
+        },
+        "flightInfo": [
+          
+        ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 31.0457276,
+          "longitude": -7.131800699999985,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 14
+        },
+        "media": [
+          {
+            "id": 61,
+            "sourceType": "mediaspirit",
+            "sourceId": "226cfe242b89e0233d7a59fce161dbc3",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/Ait-ben-haddou-12.jpg",
+            "description": ""
+          },
+          {
+            "id": 62,
+            "sourceType": "mediaspirit",
+            "sourceId": "69505c60549eb844e5c15f345fad7652",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/Ait-Ben-haddou-4.jpg",
+            "description": ""
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 1,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": true,
+            "title": "<BL> Ait Ben Haddou - Overnachting in sfeervolle accommodatie",
+            "TSProduct": {
+              "id": 1278,
+              "tag": "HADDOU",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6727
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 84.46979999999999,
+              "heading": 0,
+              "latitude": 31.0457276,
+              "longitude": -7.131800699999985,
+              "pitch": 0,
+              "searchPlace": "A\u00eft Benhaddou, Morocco",
+              "staticImageZoom": false,
+              "zoom": 14
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": null,
+              "title": "<BL> Ait Ben Haddou - Overnachting in sfeervolle accommodatie",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "ck9galvvimnzs19ub2jmze",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 9,
+            "date": "2019-10-27",
+            "endDate": "2019-10-28",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "lm8ic9atk6dssh0jn7o55",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-10-27",
+        "missingBookableDays": false,
+        "elementsOrder": "6727",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-10-28"
+      },
+      {
+        "nights": 1,
+        "day": 10,
+        "isFlight": false,
+        "typeId": 14,
+        "title": "Rijden van Ait Ben Haddou naar Ourika",
+        "subTitle": "via het Atlasgebergte",
+        "content": "<p>Rijden via het Atlasgebergte naar Ourika (watervallen) (ca. 3,5 uur direct), overnachting voor een nacht in de natuur in een B&amp;B.&nbsp;<\/p>",
+        "TSBlock": {
+          "id": 1910
+        },
+        "flightInfo": [
+          
+        ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 31.3745358,
+          "longitude": -7.790575799999942,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 14
+        },
+        "media": [
+          
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 1,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": true,
+            "title": "<BL> Ourika - Overnachting in sfeervolle accommodatie",
+            "TSProduct": {
+              "id": 1279,
+              "tag": "OURIKA",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6728
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 84.46979999999999,
+              "heading": 0,
+              "latitude": 31.3745358,
+              "longitude": -7.790575799999942,
+              "pitch": 0,
+              "searchPlace": "Ourika, Morocco",
+              "staticImageZoom": false,
+              "zoom": 14
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": null,
+              "title": "<BL> Ourika - Overnachting in sfeervolle accommodatie",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "pmdvn86e0aac9bs6kgk1n6",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 10,
+            "date": "2019-10-28",
+            "endDate": "2019-10-29",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "wq9krm2rj1njcx68fx2yi",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-10-28",
+        "missingBookableDays": false,
+        "elementsOrder": "6728",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-10-29"
+      },
+      {
+        "nights": 1,
+        "day": 11,
+        "isFlight": false,
+        "typeId": 14,
+        "title": "Rijden van Ourika naar Imlil",
+        "subTitle": null,
+        "content": "<p>Rijden naar Imlil (Atlasgebergte) (ca. 2 uur), start wandeling met berggids, overnachting bij lokale berberfamilie<\/p>",
+        "TSBlock": {
+          "id": 1911
+        },
+        "flightInfo": [
+          
+        ],
+        "media": [
+          
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 1,
+            "unitAmount": 1,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": true,
+            "title": "<BL> Imlil - Wandeltrektocht met gids door het Atlas gebergte en overnachting bij een berberfamilie <Pathfinderstrek>",
+            "TSProduct": {
+              "id": 1113,
+              "tag": null,
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6729
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 84.46979999999999,
+              "heading": 0,
+              "latitude": 31.13774490000001,
+              "longitude": -7.91979409999999,
+              "pitch": 0,
+              "searchPlace": "Imlil, Morocco",
+              "staticImageZoom": false,
+              "zoom": 1
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": null,
+              "title": "<BL> Imlil - Wandeltrektocht met gids door het Atlas gebergte en overnachting bij een berberfamilie <Pathfinderstrek>",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "200.0000",
+                "description": "<2>",
+                "minPerson": 2,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "24.760",
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "yt5eqbg7yllkaqpo3uow2",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 11,
+            "date": "2019-10-29",
+            "endDate": "2019-10-30",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "maps": [
+          
+        ],
+        "vtbObjectId": "um7grsmvgiz62tycldmc",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-10-29",
+        "missingBookableDays": false,
+        "elementsOrder": "6729",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-10-30"
+      },
+      {
+        "nights": 3,
+        "day": 12,
+        "isFlight": false,
+        "typeId": 14,
+        "title": "Rijden van Imlil naar Essaouira",
+        "subTitle": null,
+        "content": "<p>Terugwandelen naar Imlil, rijden naar Essaouira (ca.4,5 uur), overnachting in sfeervolle riad vlakbij het strand voor drie nachten<\/p>",
+        "TSBlock": {
+          "id": 1912
+        },
+        "flightInfo": [
+          
+        ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 31.5084926,
+          "longitude": -9.759504099999958,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 14
+        },
+        "media": [
+          {
+            "id": 63,
+            "sourceType": "mediaspirit",
+            "sourceId": "725d536ed58cb4e0454ce593fe1b34f6",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/HEADER.jpg",
+            "description": ""
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 3,
+            "unitAmount": 3,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": true,
+            "title": "<BL> Essaouira - Overnachting in sfeervolle accommodatie",
+            "TSProduct": {
+              "id": 1280,
+              "tag": "ESSAOUIRA",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6730
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 84.46979999999999,
+              "heading": 0,
+              "latitude": 31.5084926,
+              "longitude": -9.759504099999958,
+              "pitch": 0,
+              "searchPlace": "Essaouira, Morocco",
+              "staticImageZoom": false,
+              "zoom": 14
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": null,
+              "title": "<BL> Essaouira - Overnachting in sfeervolle accommodatie",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": "24.760",
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "crkbdu6m1qelhss19h9r5k",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 12,
+            "date": "2019-10-30",
+            "endDate": "2019-11-02",
+            "roomTypeMatchesParticipants": true
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 1,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 5,
+            "optional": false,
+            "not_calculated": true,
+            "title": "<BL> Essaouira - Kookworkshop",
+            "TSProduct": {
+              "id": 1281,
+              "tag": "KOOK",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6731
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": null,
+              "title": "<BL> Essaouira - Kookworkshop",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "0.0000",
+                "description": "<2>",
+                "minPerson": 2,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "cgockarzdkmc9r0fqkai3c",
+            "linkedParty": "party 1",
+            "day": 13,
+            "date": "2019-10-31",
+            "endDate": "2019-10-31",
+            "roomTypeMatchesParticipants": true
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 2,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 5,
+            "optional": false,
+            "not_calculated": true,
+            "title": "<BL> Vrije dag",
+            "TSProduct": {
+              "id": 1277,
+              "tag": "VRIJ",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6732
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": null,
+              "title": "<BL> Vrije dag",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "07tn8w7timlhft3jwbobenw",
+            "linkedParty": "party 1",
+            "day": 14,
+            "date": "2019-11-01",
+            "endDate": "2019-11-01",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "h0qih80vr50dpetgv1o26m",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-10-30",
+        "missingBookableDays": false,
+        "elementsOrder": "6730|6731|6732",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-11-02"
+      },
+      {
+        "nights": 2,
+        "day": 15,
+        "isFlight": false,
+        "typeId": 14,
+        "title": "Rijden van Essaouira naar Marrakech",
+        "subTitle": null,
+        "content": "<p>Rijden naar Marrakech (ca. 3,5 uur), inleveren huurauto, overnachting in sfeervolle riad in de oude medina voor twee nachten<\/p>",
+        "TSBlock": {
+          "id": 1913
+        },
+        "flightInfo": [
+          
+        ],
+        "maps": {
+          "addressInfo": [
+            
+          ],
+          "fiendOfView": 0,
+          "heading": 0,
+          "latitude": 31.6294723,
+          "longitude": -7.981084499999952,
+          "pitch": 0,
+          "searchPlace": null,
+          "staticImageZoom": null,
+          "zoom": 14
+        },
+        "media": [
+          {
+            "id": 64,
+            "sourceType": "mediaspirit",
+            "sourceId": "ec9e91c45c954d331308a845404172a6",
+            "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/market-marrakech-morocco.jpg",
+            "description": ""
+          }
+        ],
+        "elements": [
+          {
+            "emptyOlStartDT": false,
+            "offset": 0,
+            "nights": 2,
+            "unitAmount": 2,
+            "unitId": 2,
+            "optional": false,
+            "not_calculated": true,
+            "title": "<BL> Marrakech - Overnachting in sfeervolle accommodatie",
+            "TSProduct": {
+              "id": 1282,
+              "tag": "MARRAKECH",
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6733
+            },
+            "maps": {
+              "addressInfo": [
+                
+              ],
+              "fiendOfView": 84.46979999999999,
+              "heading": 0,
+              "latitude": 31.6294723,
+              "longitude": -7.981084499999952,
+              "pitch": 0,
+              "searchPlace": "Marrakesh, Morocco",
+              "staticImageZoom": false,
+              "zoom": 14
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": null,
+              "title": "<BL> Marrakech - Overnachting in sfeervolle accommodatie",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "kmlnu9bhkl130hkfbufkz",
+            "linkedParty": "party 1",
+            "hasPreviousElementParticipantOverlap": true,
+            "day": 15,
+            "date": "2019-11-02",
+            "endDate": "2019-11-04",
+            "roomTypeMatchesParticipants": true
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 1,
+            "nights": 0,
+            "unitAmount": 2,
+            "unitId": 5,
+            "optional": false,
+            "not_calculated": true,
+            "title": "<BL> Marrakech - Fietstocht door de Medina <Green Wheels>",
+            "TSProduct": {
+              "id": 899,
+              "tag": null,
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6734
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": null,
+              "title": "<BL> Marrakech - Fietstocht door de Medina <Green Wheels>",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "0.0000",
+                "description": "<3>",
+                "minPerson": 3,
+                "maxPerson": 3,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "70.0000",
+                "description": "<2>",
+                "minPerson": 2,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "0.0000",
+                "description": "<4>",
+                "minPerson": 4,
+                "maxPerson": 4,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "192.0000",
+                "description": "<6>",
+                "minPerson": 6,
+                "maxPerson": 6,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              },
+              {
+                "defaultPrice": "0.0000",
+                "description": "<43>",
+                "minPerson": 43,
+                "maxPerson": 43,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": "8.665",
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "lggmqnbldopc26im2rgnyl",
+            "linkedParty": "party 1",
+            "day": 16,
+            "date": "2019-11-03",
+            "endDate": "2019-11-03",
+            "roomTypeMatchesParticipants": true
+          },
+          {
+            "emptyOlStartDT": false,
+            "offset": 2,
+            "nights": 0,
+            "unitAmount": 1,
+            "unitId": 5,
+            "optional": false,
+            "not_calculated": true,
+            "title": "Transfer Marrakech vliegveld - Marrakech stad <Easytransfer>",
+            "TSProduct": {
+              "id": 711,
+              "tag": null,
+              "bookableDays": [
+                
+              ]
+            },
+            "TSOrderline": {
+              "id": 6742
+            },
+            "media": [
+              
+            ],
+            "olPrices": {
+              "costPrice": null,
+              "discount": "0.000",
+              "title": "<BL> Transfer Marrakech vliegveld - Marrakech stad <Easytransfer>",
+              "discountMethod": null,
+              "exchangeRate": "1.000000000",
+              "purchaseCurrency": "EUR",
+              "salesCurrency": "EUR",
+              "participants": {
+                "3590": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3799": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                },
+                "3876": {
+                  "costPrice": "",
+                  "salesPrice": ""
+                }
+              },
+              "salesTotal": 0
+            },
+            "subAdditionalText": null,
+            "additionalText": null,
+            "roomTypes": [
+              {
+                "defaultPrice": "16.0000",
+                "description": "- 1 dag",
+                "minPerson": 1,
+                "maxPerson": 2,
+                "minUnit": 1,
+                "maxUnit": null,
+                "note": ""
+              }
+            ],
+            "supplierComment": null,
+            "sellingAmount": null,
+            "sellingMarkupType": "absolute",
+            "missingBookableDays": [
+              
+            ],
+            "vtbObjectId": "5hrknvep8xmi0pskrczr",
+            "linkedParty": "party 1",
+            "day": 17,
+            "date": "2019-11-04",
+            "endDate": "2019-11-04",
+            "roomTypeMatchesParticipants": true
+          }
+        ],
+        "inViewport": false,
+        "vtbObjectId": "hpxgai17gv65engcx8d58r",
+        "carRentalElements": [
+          
+        ],
+        "date": "2019-11-02",
+        "missingBookableDays": false,
+        "elementsOrder": "6733|6734|6742",
+        "elementsMapActive": "",
+        "hasElementsOverlap": false,
+        "endDate": "2019-11-04"
+      }
+    ],
+    "liborderId": 1392,
+    "costPriceBeforeRounding": 380.1,
+    "salesPriceBeforeRounding": 80.1,
+    "vtbObjectId": "nzeiidlcea70uq4pk4my1rq",
+    "cover": [
+      {
+        "sourceType": "mediaspirit",
+        "sourceId": "69505c60549eb844e5c15f345faec7da",
+        "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/Ait-ben-haddou-10.jpg"
+      },
+      {
+        "sourceType": "mediaspirit",
+        "sourceId": "0312ac7a71468a4dccf1b8b75e55cb48",
+        "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/400--7.JPG"
+      },
+      {
+        "sourceType": "mediaspirit",
+        "sourceId": "c4af58d6133e1f6f23c1854b6e4fd20c",
+        "url": "https:\/\/s3-eu-west-1.amazonaws.com\/media.barrio-life.nl\/wordpress\/medium\/woestijn-en-bloemen.jpg"
+      }
+    ],
+    "hasNotCalculated": true,
+    "totalDays": 17,
+    "totalDaysAllocated": 17,
+    "endDate": "2019-11-04",
+    "notifications": [
+      
+    ],
+    "title": "Reisvoorstel familie Kuenen naar Andalusi\u00eb",
+    "subTitle": "25 september tot 10 oktober "
+}

@@ -1,0 +1,54 @@
+<div id="accomodation">
+  <div class="container">
+    <div class="titles">
+      <h2>Activiteiten</h2>
+      <!-- <h3>
+      In onderstaande accommodaties zullen jullie verblijven (indien beschikbaar)
+    </h3> -->
+    </div>
+
+    <div class="acc-row">
+      <div class="acc-col acc-slider" *ngIf="galleryPresent">
+        <!-- <img src="https://via.placeholder.com/350x350" /> -->
+        <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
+
+      </div>
+      <div class="acc-col acc-content" [ngClass]="(!galleryPresent)?'acc-col-off':'acc-col-on'">
+        <div class="custom-program">
+          <div
+            class="program-parent"
+            *ngFor="
+              let customprogram of program ;
+              index as i
+            "
+          >
+            <div class="title">
+              <div class="open-close">
+                <i
+                *ngIf="activated !== i && customprogram.content"
+                (click)="display(i)"
+                class="fas fa-plus"
+              ></i>
+              <i
+                *ngIf="activated === i"
+                (click)="hide()"
+                class="fas fa-minus"
+              ></i>
+            </div>
+              <span class="day">
+                {{ customprogram.day }} - {{ customprogram.title }} <span *ngIf="customprogram.optional"> (optional) </span>
+              </span>
+              <!-- <span class="desc">-{{ customprogram.title }}</span> -->
+            </div>
+            <div class="program-content" [class.active]="activated === i">
+              <div class="programtxt">
+                <p *ngIf="customprogram.content" [innerHTML]="customprogram.content">
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

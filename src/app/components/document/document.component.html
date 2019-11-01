@@ -1,0 +1,31 @@
+<div class="docwrap">
+  <div class="container">
+    <h2>Reisbescheiden (na boeking)</h2>
+
+    <div class="custom-program">
+      <div
+        class="program-parent"
+        *ngFor="
+          let customprogram of itinerary.segments | slice: 0:4;
+          index as i
+        "
+      >
+        <div class="title">
+          <i
+            *ngIf="activated !== i"
+            (click)="display(i)"
+            class="fas fa-plus"
+          ></i>
+          <i *ngIf="activated === i" (click)="hide()" class="fas fa-minus"></i>
+          <span class="day">
+            Dag {{ customprogram.day }} -{{ customprogram.title }}
+          </span>
+          <!-- <span class="desc">-{{ customprogram.title }}</span> -->
+        </div>
+        <div class="program-content" [class.active]="activated === i">
+          <div class="programtxt" innerHTML="{{ customprogram.content }}"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

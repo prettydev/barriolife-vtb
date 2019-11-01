@@ -1,0 +1,16 @@
+<div class="consultant-blk">
+  <div class="container">
+    <h2>De reisspecialist</h2>
+    <div class="consultwrap">
+      <div class="consultant" *ngFor="let c of consultants">
+        <img src="{{ c.picture }}" alt="{{ c.name }}" />
+        <div class="content">
+          <span>{{ c.title }}</span>
+          <h3>{{ c.name }}</h3>
+          <p>{{ c.phone }}</p>
+          <p>{{ c.email }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

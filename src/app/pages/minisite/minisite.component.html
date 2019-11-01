@@ -1,0 +1,353 @@
+<!-- <app-menu></app-menu> -->
+
+<!-- <app-hero [itinerary]="itinerary"></app-hero> -->
+<div class="banner">
+  <img src="{{ itinerary.bannerImage }}" alt="" title="" />
+  <div class="bannercont">
+    <img *ngIf="itinerary.logoImage" src="{{ itinerary.logoImage }}" alt="" title="" />
+    <h1><span>{{ itinerary.title }}</span> <span>{{ itinerary.subTitle }}</span></h1>
+  </div>
+</div>
+<!-- app-hero ends here -->
+
+
+<!-- <app-about></app-about> -->
+<div class="aboutwrap">
+  <div class="container">
+    <h2>Waarin onderscheiden we ons?</h2>
+    <div class="aboutrow">
+      <div class="aboutcol">
+        <img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/square/md/quality.png" alt="" title="" />
+        <h3>Betere prijs-kwaliteit verhouding </h3>
+        <ul>
+          <li>
+            <img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/square/md/tick.png" alt="" title="" />
+            Je hebt direct contact met de landenspecialist die je eerlijk en inhoudelijk advies geeft 
+
+          </li>
+          <li>
+            <img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/square/md/tick.png" alt="" title="" />
+            Je kan bij ons compleet je eigen reis samenstellen, zonder vaste standaard programma´s 
+          </li>
+          <li>
+            <img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/square/md/tick.png" alt="" title="" />
+            Je verblijft niet in grote toeristenhotels, maar vaak in kleinschaligere accommodaties
+          </li>
+          <li>
+            <img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/square/md/tick.png" alt="" title="" />
+            Meer waar voor je geld, omdat we niet met lokale tussenpersonen werken
+          </li>
+        </ul>
+      </div>
+      <div class="aboutcol">
+        <img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/square/md/24x7.png" alt="" title="" />
+        <h3> Bereikbaar tijdens je reis</h3>
+        <ul>
+          <li>
+            <img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/square/md/tick.png" alt="" title="" />
+            Je reissom is beschermd door ons garantiefonds STO en het lidmaatschap bij de VVKR
+          </li>
+          <li>
+            <img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/square/md/tick.png" alt="" title="" />
+            We bereiden je gedegen voor op de reis met informatie, lokale tips en logistieke informatie
+          </li>
+          <li>
+            <img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/square/md/tick.png" alt="" title="" />
+            Tijdens de reis zijn we 24/7 bereikbaar voor vragen en ondersteuning en onze whatsappdienst tijdens de reis staat tot je beschikking 
+          </li>
+        </ul>
+      </div>
+      <div class="aboutcol">
+        <img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/square/md/sustainable.png" alt="" title="" />
+        <h3>Duurzame en eerlijke reizen</h3>
+        <ul>
+          <li>
+            <img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/square/md/tick.png" alt="" title="" />
+            We compenseren de CO2 van beiden je vlucht en het vervoer ter plaatse
+          </li>
+          <li>
+            <img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/square/md/tick.png" alt="" title="" />
+            We betalen onze partners ter plekke goed, zodat het land profijt heeft van je reis
+          </li>
+          <li>
+            <img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/square/md/tick.png" alt="" title="" />
+            Onze winst gaat 100% naar lokale projecten en gemeeschappen 
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- app-about ends here -->
+
+<!-- <app-trusted-by></app-trusted-by> -->
+<div class="trustwrap">
+  <div class="container">
+    <h2>Reisgarantie & Solide partners</h2>
+    <ul>
+      <li><img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/original/original/Transavia.png" alt="" title="" /></li>
+      <li><img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/original/original/image2.png" alt="" title="" /></li>
+      <li><img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/original/original/image3.png" alt="" title="" /></li>
+      <li><img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/original/original/travellife-logo.jpg" alt="" title="" /></li>
+      <li><img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/original/original/image5.png" alt="" title="" /></li>
+      <li><img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/original/original/image6.png" alt="" title="" /></li>
+    </ul>
+  </div>
+</div>
+<!-- app-trusted-by ends here -->
+
+<!-- <app-map [itinerary]="itinerary"></app-map> -->
+<div class="mapwrap">
+  <h2>De Reisroute</h2>
+  <div class="mapcont">
+    <div class="map">
+      <agm-map
+        [latitude]="itinerary.markers[0].latitude"
+        [longitude]="itinerary.markers[0].longitude"
+        [zoom]="6"
+        [scrollwheel]="false"
+        [styles]="[
+          {
+            featureType: 'administrative',
+            elementType: 'all',
+            stylers: [
+              {
+                saturation: '-100'
+              }
+            ]
+          },
+          {
+            featureType: 'administrative.province',
+            elementType: 'all',
+            stylers: [
+              {
+                visibility: 'off'
+              }
+            ]
+          },
+          {
+            featureType: 'landscape',
+            elementType: 'all',
+            stylers: [
+              {
+                saturation: -100
+              },
+              {
+                lightness: 65
+              },
+              {
+                visibility: 'on'
+              }
+            ]
+          },
+          {
+            featureType: 'poi',
+            elementType: 'all',
+            stylers: [
+              {
+                saturation: -100
+              },
+              {
+                lightness: '50'
+              },
+              {
+                visibility: 'simplified'
+              }
+            ]
+          },
+          {
+            featureType: 'road',
+            elementType: 'all',
+            stylers: [
+              {
+                saturation: '-100'
+              }
+            ]
+          },
+          {
+            featureType: 'road.highway',
+            elementType: 'all',
+            stylers: [
+              {
+                visibility: 'simplified'
+              }
+            ]
+          },
+          {
+            featureType: 'road.arterial',
+            elementType: 'all',
+            stylers: [
+              {
+                lightness: '30'
+              }
+            ]
+          },
+          {
+            featureType: 'road.local',
+            elementType: 'all',
+            stylers: [
+              {
+                lightness: '40'
+              }
+            ]
+          },
+          {
+            featureType: 'transit',
+            elementType: 'all',
+            stylers: [
+              {
+                saturation: -100
+              },
+              {
+                visibility: 'simplified'
+              }
+            ]
+          },
+          {
+            featureType: 'water',
+            elementType: 'geometry',
+            stylers: [
+              {
+                hue: '#ffff00'
+              },
+              {
+                lightness: -25
+              },
+              {
+                saturation: -97
+              }
+            ]
+          },
+          {
+            featureType: 'water',
+            elementType: 'labels',
+            stylers: [
+              {
+                lightness: -25
+              },
+              {
+                saturation: -100
+              }
+            ]
+          }
+        ]"
+        class="mapdiv"
+      >
+        <!-- <agm-marker [latitude]="52.368" [longitude]="4.9036">
+      <agm-info-window>Börk</agm-info-window>
+    </agm-marker> -->
+        <agm-marker
+          *ngFor="let m of itinerary.markers"
+          [latitude]="m.latitude"
+          [longitude]="m.longitude"
+          [label]="{text: m.id}"
+        >
+          <agm-info-window>
+            <strong>{{ m.searchPlace }}</strong>
+          </agm-info-window>
+        </agm-marker>
+      </agm-map>
+    </div>
+    <div class="mapplaces">
+      <div class="placecont">
+        <div class="place" *ngFor="let m of itinerary.markers">
+          <p>
+            <span>{{ m.id }}</span> {{ m.searchPlace }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- app-map ends here -->
+
+<!-- <app-flight [itinerary]="itinerary"></app-flight> -->
+
+<app-program [itinerary]="itinerary"></app-program>
+
+<app-accomodation [itinerary]="itinerary"></app-accomodation>
+
+<app-activity [itinerary]="itinerary"></app-activity>
+
+<app-vervoer [itinerary]="itinerary"></app-vervoer>
+
+<!-- <app-overview [itinerary]="itinerary"></app-overview> -->
+<div id="overview">
+  <div class="container">
+    <h2>Reissom</h2>
+    
+    <div class="lists">
+      <div class="listwrap inclusive">
+        <div class="listblk">
+          <h3>Inclusief</h3>
+          <!-- <vtb-elements-list [optional]="false" [unitIds]="[2]" [reverseUnitIds]="true" [dataSource]="itinerary.segments"></vtb-elements-list> -->
+          <div [innerHTML]="itinerary.inclusive" class="list"></div>
+        </div>
+      </div>
+      <div class="listwrap exclusive">
+        <div class="listblk">
+          <h3>Exclusief</h3>
+          <!-- <vtb-elements-list [optional]="true" [unitIds]="[2]" [reverseUnitIds]="true" [dataSource]="itinerary.segments"></vtb-elements-list> -->
+          <div [innerHTML]="itinerary.exclusive" class="list"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="packagewrap">
+      <div class="packageimg">
+        <img src="{{ itinerary.priceImage }}" />
+      </div>
+      <div class="packagetxt">
+        <h3>
+          <span [innerHTML]="itinerary.price"></span>
+        </h3>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- app-overview ends here -->
+
+<!-- <app-flight [itinerary]="itinerary"></app-flight>
+
+<app-cover [coverData]="coverData[0]"></app-cover> -->
+
+<!-- <app-consultant [itinerary]="itinerary"></app-consultant> -->
+<div class="consultant-blk">
+  <div class="container">
+    <h2>De reisspecialist</h2>
+    <div class="consultwrap">
+      <div class="consultant" *ngFor="let c of itinerary.consultants">
+        <img src="{{ c.picture }}" alt="{{ c.name }}" />
+        <div class="content">
+          <span>{{ c.title }}</span>
+          <h3>{{ c.name }}</h3>
+          <p>{{ c.phone }}</p>
+          <p>{{ c.email }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- app-consultant ends here -->
+
+<!-- <app-document [itinerary]="itinerary"></app-document> -->
+
+<!-- <app-footer></app-footer> -->
+<div class="footer">
+  <div class="footsocial">
+    <div class="container">
+      <div class="socialwrap">
+        <h2>Voor meer reisinspiratie</h2>
+       <a href ="https://www.facebook.com/culturele.reizen"> <h4><i class="fab fa-facebook-f"></i> <span>Facebook</span></h4></a>
+       <a href ="https://www.instagram.com/barriolifenl/"> <h4><i class="fab fa-instagram"></i> <span>Instagram</span></h4> </a>
+        <img src="https://s3-eu-west-1.amazonaws.com/media.barrio-life.nl/square/md/footlogo.png" />
+      </div>
+    </div>
+  </div>
+  <div class="footcopy">
+    <p>
+      <i class="far fa-registered"></i> 2019 Barrio-Life. All Rights Reserved.
+    </p>
+  </div>
+</div>
+<!-- app-footer ends here -->
